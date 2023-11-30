@@ -5,26 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily : { 
-      san : ['Rubik', 'sans-serif'],
-    },
-    container: {
-      center: true,
-      padding: {
-        DEFAULT: '1rem',
-        sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        
-      }
-    },
-    extend: {
-      fontFamily : {
-        heading : ['Montserrat', 'sans-serif']
-        
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
-
