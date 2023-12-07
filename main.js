@@ -1,5 +1,6 @@
 import glide from '@glidejs/glide'
 import './style.css'
+import VenoBox from 'venobox';
 
 const glideOptions = {
     type:'carousel',
@@ -15,3 +16,7 @@ const glideOptions = {
     }
 }
 new glide(".glide",glideOptions).mount();
+
+new VenoBox({
+  selector : ".my-link"
+})
