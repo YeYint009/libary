@@ -1,6 +1,7 @@
-import glide from '@glidejs/glide'
-import './style.css'
+import glide from '@glidejs/glide';
+import './style.css';
 import VenoBox from 'venobox';
+import 'flowbite';
 
 const glideOptions = {
     type:'carousel',
